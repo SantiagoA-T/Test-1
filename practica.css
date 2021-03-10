@@ -1,0 +1,58 @@
+
+  .white-text {
+    color: white;
+  }
+
+  .trc-image {
+    width: 300px;
+    height: 400px;
+  }
+
+  .back{
+    background-color: pink;
+  }
+
+  .border{
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+  }
+  .gray{
+    color: gray;
+  }
+
+  p1 {
+
+    font-size: 20px;
+    font-family: cursive;
+  }
+
+  ol {
+
+    font-size: 20px;
+  }
+
+  label{
+    color: blue;
+    font-family: cursive;
+    font: 20px;
+  }
+
+  button {
+    font-size: 20px;
+    font-family: cursive;
+  }
+
+  li {
+    font-size: 20px;
+    font-family: cursive;
+  }
+
+  h1 {
+    font-family: lobster;
+  }
+
+  input {
+    font-family: cursive;
+  }
