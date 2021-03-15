@@ -13,13 +13,104 @@
   }
 
   .border{
-    border-color: white;
+    border-color: black;
     border-width: 5px;
     border-style: solid;
     border-radius: 10px;
   }
-  .gray{
+  .gray {
     color: gray;
+  }
+
+  .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .Mamá-box {
+      background-color: purple;
+      color: #fff;
+      margin-top: 60px;
+      margin-right: 60px;
+      margin-bottom: 60px;
+      margin-left: 60px;
+  }
+  .Hija-box {
+      background-color: purple;
+      color: #fff;
+      margin-top: -100px;
+      margin-right: 1000px;
+      margin-bottom: 60px;
+      margin-left: 60px;
+  }
+  .Hijo-box {
+      background-color: blue;
+      color: #fff;
+      margin-top: -100px;
+      margin-right: 500px;
+      margin-bottom: 60px;
+      margin-left: 680px;
+  }
+
+  .Papá-box {
+      background-color: blue;
+      color: #fff;
+      margin-top: -10px;
+      margin-right: 60px;
+      margin-bottom: 60px;
+      margin-left: 1000px;
+  }
+
+  .abuelo-box {
+      background-color: purple;
+      color: #fff;
+      margin-top: -100px;
+      margin-right: 680px;
+      margin-bottom: 60px;
+      margin-left: 500px;
+  }
+
+  .abuela-box {
+      background-color: purple;
+      color: #fff;
+      margin-top: -10;
+      margin-right: 680px;
+      margin-bottom: 60px;
+      margin-left: 500px;
+  }
+
+  .prox1-box {
+      background-color: gray;
+      color: #fff;
+      margin-top: 60px;
+      margin-right: 100px;
+      margin-bottom: 60px;
+      margin-left: 800px;
+  }
+
+  .prox2-box {
+      background-color: gray;
+      color: #fff;
+      margin-top: -100px;
+      margin-right: 800px;
+      margin-bottom: 60px;
+      margin-left: 100px;
+  }
+
+  .mano {
+      margin-bottom: -25px;
+      text-align: center;
+  }
+
+  .pie {
+      text-align: center;
+  }
+
+  .yellow-box {
+      background-color: white;
+      padding: 10px;
   }
 
   p1 {
