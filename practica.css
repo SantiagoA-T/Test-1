@@ -15,7 +15,6 @@
     font-size: 20px;
     text-align: justify;
     font-weight: 500;
-    line-height: 25px;
   }
 
   .border{
@@ -113,13 +112,6 @@
     margin-left:  150px;
   }
 
-
-
-  .mano {
-      margin-bottom: -25px;
-      text-align: center;
-  }
-
   .pie {
       text-align: center;
   }
@@ -138,7 +130,7 @@
   h1 {
     font-family: lobster;
     background-color: rgb(255, 255, 255,0.82);
-    padding: 10px;
+    padding: 5px;
     box-shadow: 0px 20px 20px 10px rgba(0,0,0,0.33), 0 6px 6px rgba(0,0,0,0.7);
     border-style: solid;
     border-color: black;
@@ -155,26 +147,45 @@
   a {
     color: #000;
   }
-  a:hover { color: yellow; }
+  a:hover { color: blue; }
 
   b {
     color: #000;
   }
 
-  label:hover { color: yellow; }
+  label:hover { color: blue; }
 
     {
     position: relative; left: 50%;
   }
 
   form {
-    position: relative; left: 42%;
+    border-color: rgb();
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    margin-right: 60%;
+    margin-left: -30%;
+    box-shadow: 0px 20px 20px 10px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.33);
+    position: relative; left: 45%;
   }
 
-  #ola {
-    position: relative; left: 40%;
-  }
 
   #alo {
-    position: relative; left: 0.2%;
+  position: relative; left: 1%;
+
+
+  }
+
+  #al {
+    position: absolute; left: 0.2%;
+    opacity: ;
+    margin-left:  60%;
+    margin-top:   1%;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0,0), 0 6px 6px rgba(0,0,0,0);
+
+  }
+
+  button {
+    background-color: white;
   }
