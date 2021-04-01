@@ -1,4 +1,13 @@
 
+body {
+  background-color: rgb(248, 171, 255);
+  color: gray;
+  font-family: cursive;
+  font-size: 20px;
+  text-align: justify;
+  font-weight: 500;
+}
+
   .white-text {
     color: white;
   }
@@ -6,15 +15,6 @@
   .trc-image {
     width: 300px;
     height: 400px;
-  }
-
-  body {
-    background-color: rgb(248, 171, 255);
-    color: gray;
-    font-family: cursive;
-    font-size: 20px;
-    text-align: justify;
-    font-weight: 500;
   }
 
   .border{
@@ -136,7 +136,6 @@
     border-color: black;
     border-radius: 5px;
     text-align: center;
-
   }
 
   img {
@@ -173,18 +172,42 @@
 
   #alo {
   position: relative; left: 1%;
-
-
+  z-index: 2;
   }
 
   #al {
-    position: absolute; left: 0.2%;
-    opacity: ;
-    margin-left:  60%;
-    margin-top:   1%;
-    box-shadow: 0px 0px 0px rgba(0, 0, 0,0), 0 6px 6px rgba(0,0,0,0);
-
+    position: absolute; top: 55%; left: 35.5%;
+    margin-top: 1%;
+    margin-right: px;
+    z-index: 1;
   }
+
+  #ala {
+    position: relative;
+    z-index: 3;
+  }
+
+  img:hover {
+    animation-name: tli;
+    animation-duration: 2s;
+  }
+
+  @keyframes tli {
+    25% {
+     width: 100px;
+    }
+    50% {
+      height: 130px;
+    }
+
+    75% {
+     width: -100px;
+    }
+
+    100% {
+      height: -130px;
+    }
+
 
   button {
     background-color: white;
