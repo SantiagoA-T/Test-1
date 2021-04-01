@@ -136,10 +136,14 @@ body {
     border-color: black;
     border-radius: 5px;
     text-align: center;
+    transform: skewX(5deg);
+    transform: skewy(-5deg);
   }
 
   img {
     box-shadow: 0px 20px 20px rgba(0, 0, 0,0.33), 0 6px 6px rgba(0,0,0,0.23);
+    transform: skewX(deg);
+    transform: skewY(-6deg);
   }
 
   a {
@@ -191,24 +195,72 @@ body {
 
   img:hover {
     animation-name: tli;
-    animation-duration: 2s;
-  }
+    animation-duration: 8s;
+    }
 
   @keyframes tli {
-    25% {
-     width: 100px;
-    }
-    50% {
-      height: 130px;
-    }
 
-    75% {
-     width: -100px;
-    }
-
+    5% {
+top: 0px;
+}
+    10%{
+top: 5px;
+}
+    15%{
+top: 10px;
+}
+    20%{
+top: 15px;
+}
+    25%{
+ top: 20px;
+}
+    30%{
+ top: 25px;
+}
+    35%{
+ top: 30px;
+}
+    40%{
+ top: 35px;
+}
+    45%{
+ top: 40px;
+}
+    50%{
+top: 45px;
+}
+    55%{
+top: 50px;
+}
+    60%{
+top: 55px;
+}
+    65%{
+top: 60px;
+}
+    70%{
+top: 65px;
+}
+    75%{
+top: 70px;
+}
+    80%{
+top: 75px;
+}
+    85%{
+top: 80px;
+}
+    90%{
+top: 85px;
+}
+    95%{
+top: 90px;
+}
     100% {
-      height: -130px;
-    }
+ left: 10px;
+ top: 90px;
+}
 
 
   button {
