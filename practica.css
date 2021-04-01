@@ -140,7 +140,6 @@ body {
 
   img {
     box-shadow: 0px 20px 20px rgba(0, 0, 0,0.33), 0 6px 6px rgba(0,0,0,0.23);
-    position: relative; left: 38%;
   }
 
   a {
@@ -169,16 +168,19 @@ body {
     position: relative; left: 45%;
   }
 
+  #img {
+    position: relative; left: 38%;
+  }
+
 
   #alo {
-  position: relative; left: 1%;
+  position: relative; left: ;
   z-index: 2;
   }
 
   #al {
-    position: absolute; top: 55%; left: 35.5%;
+    position: relative;
     margin-top: 1%;
-    margin-right: px;
     z-index: 1;
   }
 
