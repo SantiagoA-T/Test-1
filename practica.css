@@ -7,6 +7,49 @@ body {
   text-align: justify;
   font-weight: 500;
 }
+img {
+  box-shadow: 0px 20px 20px rgba(0, 0, 0,0.33), 0 6px 6px rgba(0,0,0,0.23);
+  transform: skewX(deg);
+  transform: skewY(-6deg);
+}
+
+a {
+  color: #000;
+}
+a:hover { color: blue; }
+
+b {
+  color: #000;
+}
+
+label:hover { color: blue; }
+
+  {
+  position: relative; left: 50%;
+}
+
+form {
+  border-color: rgb();
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 5px;
+  margin-right: 60%;
+  margin-left: -30%;
+  box-shadow: 0px 20px 20px 10px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.33);
+  position: relative; left: 45%;
+}
+
+label {
+  color: white;
+  font-family: cursive;
+  font: 20px;
+}
+
+button {
+  background-color: white;
+}
+
+
 
   .white-text {
     color: white;
@@ -121,56 +164,7 @@ body {
       padding: 10px;
   }
 
-  label {
-    color: white;
-    font-family: cursive;
-    font: 20px;
-  }
 
-  h1 {
-    font-family: lobster;
-    background-color: rgb(255, 255, 255,0.82);
-    padding: 5px;
-    box-shadow: 0px 20px 20px 10px rgba(0,0,0,0.33), 0 6px 6px rgba(0,0,0,0.7);
-    border-style: solid;
-    border-color: black;
-    border-radius: 5px;
-    text-align: center;
-    transform: skewX(5deg);
-    transform: skewy(-5deg);
-  }
-
-  img {
-    box-shadow: 0px 20px 20px rgba(0, 0, 0,0.33), 0 6px 6px rgba(0,0,0,0.23);
-    transform: skewX(deg);
-    transform: skewY(-6deg);
-  }
-
-  a {
-    color: #000;
-  }
-  a:hover { color: blue; }
-
-  b {
-    color: #000;
-  }
-
-  label:hover { color: blue; }
-
-    {
-    position: relative; left: 50%;
-  }
-
-  form {
-    border-color: rgb();
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 5px;
-    margin-right: 60%;
-    margin-left: -30%;
-    box-shadow: 0px 20px 20px 10px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.33);
-    position: relative; left: 45%;
-  }
 
   #img {
     position: relative; left: 38%;
@@ -193,76 +187,54 @@ body {
     z-index: 3;
   }
 
+
+
+  h1 {
+    font-family: lobster;
+    background-color: rgb(255, 255, 255,0.82);
+    padding: 5px;
+    box-shadow: 0px 20px 20px 10px rgba(0,0,0,0.33), 0 6px 6px rgba(0,0,0,0.7);
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    text-align: center;
+    transform: skewX(deg);
+    transform: skewy(deg);
+    animation-iteration-count: 3;
+    animation-name: tl;
+    animation-duration: 2s;
+  }
+
+    @keyframes tl {
+
+    0% {
+    transform: rotate(1deg);
+      }
+    50% {
+    transform: rotate(-3deg);
+    opacity: 0.2;
+    }
+    100% {
+    transform: rotate(1deg);
+    }
+  }
+
   img:hover {
     animation-name: tli;
-    animation-duration: 8s;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
     }
 
   @keyframes tli {
 
-    5% {
-top: 0px;
-}
-    10%{
-top: 5px;
-}
-    15%{
-top: 10px;
-}
-    20%{
-top: 15px;
-}
-    25%{
- top: 20px;
-}
-    30%{
- top: 25px;
-}
-    35%{
- top: 30px;
-}
-    40%{
- top: 35px;
-}
-    45%{
- top: 40px;
+    0% {
+  top: 0px;
 }
     50%{
-top: 45px;
-}
-    55%{
-top: 50px;
-}
-    60%{
-top: 55px;
-}
-    65%{
-top: 60px;
-}
-    70%{
-top: 65px;
-}
-    75%{
-top: 70px;
-}
-    80%{
-top: 75px;
-}
-    85%{
-top: 80px;
-}
-    90%{
-top: 85px;
-}
-    95%{
-top: 90px;
+  top: 45px;
 }
     100% {
- left: 10px;
- top: 90px;
-}
-
-
-  button {
-    background-color: white;
+  left: 45px;
+  top: 75px;
   }
+}
